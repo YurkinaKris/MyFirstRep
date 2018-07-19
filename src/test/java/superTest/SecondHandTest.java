@@ -1,10 +1,8 @@
-
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import superTest.pages.SearchPage;
-
 
 
 public class SecondHandTest extends pages.BaseTest {
