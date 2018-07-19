@@ -3,16 +3,17 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import superTest.pages.SearchPage;
+import superTest.tests.BaseTest;
 
 
-public class SecondHandTest extends pages.BaseTest {
+public class SecondHandTest extends BaseTest {
 
     private static SearchPage searchPage;
 
 
     @BeforeClass
     public void beforeTest() throws InterruptedException {
-        searchPage = PageFactory.initElements(pages.BaseTest.driver, SearchPage.class);
+        searchPage = PageFactory.initElements(BaseTest.driver, SearchPage.class);
     }
 
     @Test

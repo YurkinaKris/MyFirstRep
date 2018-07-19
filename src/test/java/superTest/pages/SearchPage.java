@@ -6,6 +6,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class SearchPage {
+    public SearchPage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
+        this.driver = driver;
+    }
+    public WebDriver driver;
+
     @FindBy(css = "[accesskey= '1']")
     private static WebElement firstResultSearch;
 
@@ -14,10 +20,7 @@ public class SearchPage {
 
     @FindBy(css = "[type='submit']")
     private WebElement searchButton;
-
-    public void init(final WebDriver driver) {
-        PageFactory.initElements(driver, this);
-    }
+    
 
     public void search(String text) {
         searchInput.sendKeys(text);
