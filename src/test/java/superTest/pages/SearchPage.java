@@ -20,7 +20,7 @@ public class SearchPage {
 
     @FindBy(css = "[type='submit']")
     private WebElement searchButton;
-    
+
 
     public void search(String text) {
         searchInput.sendKeys(text);

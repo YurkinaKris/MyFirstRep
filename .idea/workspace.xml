@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b720b461-2508-479a-8120-e2ff6c39eebb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/superTest/SecondHandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/superTest/SecondHandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/superTest/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/superTest/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/superTest/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/superTest/tests/BaseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,23 +26,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecondHandTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SecondHandTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/superTest/SecondHandTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="272">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/superTest/pages/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/superTest/tests/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,14 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/superTest/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -80,8 +80,9 @@
         <option value="$PROJECT_DIR$/src/test/java/superTest/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/superTest/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/superTest/pages/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/superTest/SecondHandTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/superTest/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/superTest/tests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/superTest/SecondHandTest.java" />
       </list>
     </option>
   </component>
@@ -140,6 +141,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="superTest" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Super" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="superTest" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +210,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="superTest" />
-      <option name="MAIN_CLASS_NAME" value="SecondHandTest" />
+      <option name="MAIN_CLASS_NAME" value="superTest.tests.SecondHandTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -271,6 +281,12 @@
     <history-entry file="SecondHandTest - 2018.07.19 at 15h 55m 55s.xml">
       <configuration name="SecondHandTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SecondHandTest - 2018.07.19 at 16h 35m 43s.xml">
+      <configuration name="SecondHandTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SecondHandTest - 2018.07.19 at 17h 58m 28s.xml">
+      <configuration name="SecondHandTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="513" y="265" width="1400" height="839" extended-state="0" />
@@ -315,7 +331,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/superTest/pages/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/superTest/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -329,9 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -341,6 +354,8 @@
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -354,20 +369,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/superTest/SearchPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/superTest/BaseTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/superTest/pages/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/superTest/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/superTest/SecondHandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -376,10 +381,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/superTest/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/superTest/SecondHandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
           </folding>
         </state>
       </provider>

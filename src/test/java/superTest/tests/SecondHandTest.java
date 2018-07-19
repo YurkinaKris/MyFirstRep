@@ -1,3 +1,5 @@
+package superTest.tests;
+
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -12,12 +14,12 @@ public class SecondHandTest extends BaseTest {
 
 
     @BeforeClass
-    public void beforeTest() throws InterruptedException {
+    public void beforeTest()  {
         searchPage = PageFactory.initElements(BaseTest.driver, SearchPage.class);
     }
 
     @Test
-    public void searchTest() throws InterruptedException {
+    public void searchTest()  {
         driver.get("https://ya.ru");
         searchPage.search("погода пенза");
         String Result = SearchPage.getResult();
