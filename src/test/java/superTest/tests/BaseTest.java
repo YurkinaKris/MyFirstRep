@@ -1,5 +1,6 @@
 package superTest.tests;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -19,8 +20,8 @@ public class BaseTest {
 
     }
 
-    @AfterClass
+     @AfterClass
     public static void tearDown() {
-        driver.quit();
+       driver.quit();
     }
 }
