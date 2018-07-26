@@ -18,12 +18,9 @@ public class PlacePage {
     @FindBy(css = ".b-autocomplete-item__reg")
     private WebElement cityClick;
 
-
-    public void place(String text) {
+    public void placeInput(String text) {
         cityInput.clear();
         cityInput.sendKeys(text);
         cityClick.click();
-
-
     }
 }
