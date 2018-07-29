@@ -9,27 +9,27 @@ import org.openqa.selenium.support.PageFactory;
 
 import javax.swing.*;
 
-//public class CompMarketPage {
- // public CompMarketPage(WebDriver driver) {
-      //  PageFactory.initElements(driver, this);
-   //     this.driver = driver;
-   // }
+public class CompMarketPage {
+ public CompMarketPage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
+       this.driver = driver;
+    }
 
-   // public WebDriver driver;
+    public WebDriver driver;
 
-   // public void scroll() {
-   //     WebElement element = driver.findElements(By.cssSelector(""));
-   //     Actions actions = new Actions(driver);
-   //     actions.moveToElement(element);
-   //     actions.perform();
-   // }
+    public void scroll() {
+        WebElement element = (WebElement) driver.findElements(By.cssSelector("[role='listbox']"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element);
+        actions.perform();
+    }
 
-   // @FindBy(css = "")
-    //private static WebElement tabletLink;
+    @FindBy(css = "локатор - кнопка-сортировка по цене")
+    private static WebElement pricetLink;
 
-    //public void tabletClick() {
-      //  tabletLink.click();
+    public void priceClick(){
+        pricetLink.click();
+     }
 
-    //}
-//}
+}
 
