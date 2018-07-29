@@ -10,25 +10,25 @@ import org.openqa.selenium.support.PageFactory;
 import javax.swing.*;
 
 //public class CompMarketPage {
-  //  public CompMarketPage(WebDriver driver) {
- //       PageFactory.initElements(driver, this);
-  //      this.driver = driver;
-  //  }
+ // public CompMarketPage(WebDriver driver) {
+      //  PageFactory.initElements(driver, this);
+   //     this.driver = driver;
+   // }
 
-  //  public WebDriver driver;
+   // public WebDriver driver;
 
-  //  public void scroll() {
-  //      WebElement element = driver.findElements(By.cssSelector(""));
-  //      Actions actions = new Actions(driver);
-  //      actions.moveToElement(element);
+   // public void scroll() {
+   //     WebElement element = driver.findElements(By.cssSelector(""));
+   //     Actions actions = new Actions(driver);
+   //     actions.moveToElement(element);
    //     actions.perform();
-    //}
+   // }
 
    // @FindBy(css = "")
- //   private static WebElement tabletLink;
+    //private static WebElement tabletLink;
 
-  //  public void tabletClick() {
-  //      tabletLink.click();
+    //public void tabletClick() {
+      //  tabletLink.click();
 
     //}
 //}
